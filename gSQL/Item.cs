@@ -64,7 +64,7 @@ namespace gSQL
             }
         }
         public String lStr;
-        public String[] rStr; 
+        public String[] rStr;
         public int point;
     }
 }
