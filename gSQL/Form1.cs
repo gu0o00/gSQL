@@ -16,6 +16,7 @@ namespace gSQL
 		{
 			InitializeComponent();
 			slr = new SLR("create.txt");
+
 			slr.GetZhongjiefu();
 			slr.GetAllFirst();
 			slr.GetAllFollow();

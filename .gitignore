@@ -1,6 +1,4 @@
 gSQL/obj/
 gSQL/Properties/
 gSQL/gSQL.csproj
-gSQL/bin/Debug/gSQL.exe
-gSQL/bin/Debug/gSQL.pdb
-gSQL/bin/Debug/gSQL.vshost.exe.manifest
+
