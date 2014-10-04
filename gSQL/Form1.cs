@@ -15,6 +15,14 @@ namespace gSQL
 		public Form1()
 		{
 			InitializeComponent();
+			slr = new SLR("create.txt");
+			slr.GetZhongjiefu();
+			slr.GetAllFirst();
+			slr.GetAllFollow();
+			slr.Closure();
+			slr.GetItems();
+			slr.MakeActionTable();
+			slr.MakeGotoTable();
 		}
 
 		private void toolStripButton1_Click(object sender, EventArgs e)
@@ -34,5 +42,6 @@ namespace gSQL
 			}
 		}
 		static Int32 line = 0;
+		private SLR slr;
 	}
 }

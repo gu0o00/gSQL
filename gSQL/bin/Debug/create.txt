@@ -1,0 +1,40 @@
+T'->T
+T->Q
+T->G
+T->H
+T->J
+T->I
+Q->create table id ( Y )
+Y->id char ( num ) , Y
+Y->id int , Y
+Y->id char ( num )
+Y->id int
+Y->id varchar ( num ) , Y
+Y->id varchar ( num )
+G->create index id on id ( O )
+O-> id asc
+O-> id desc
+H->create view id as select B from N where W
+J->create user id identified by system
+I->password
+B->id , B
+B->id . id , B
+B->id
+B->id . id
+N->id , N
+N->id
+W->( W )
+W->( W ) and W
+W->( W ) or W
+W->id r 'id' and W
+W->id . id r 'id' and W
+W->id r 'id' or W
+W->id . id r 'id' or W
+W->id r num and W
+W->id . id r num and W
+W->id r num or W
+W->id . id r num or W
+W->id r 'id'
+W->id . id r 'id'
+W->id r num
+W->id . id r num
