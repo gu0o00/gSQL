@@ -2,6 +2,6 @@ gSQL/obj/
 gSQL/Properties/
 gSQL/gSQL.csproj
 gSQL/bin/Release/
-gSQL/bin/gSQL.exe.pdb
+gSQL/bin/gSQL.pdb
 gSQL/bin/gSQL.vshost.exe
 gSQL/bin/gSQL.vshost.exe.config
