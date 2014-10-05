@@ -39,7 +39,8 @@ namespace gSQL
 			{
 				string[] sql = this.inputBox.Text.Split(';');
 				String asql = (sql[line++] + ";").Replace('\n', ' ').TrimStart();
-				outputBox.Text += asql+"\n";
+				outputBox.Text += asql + "\n";
+				char a = asql[asql.Length-1];
 			}
 		}
 		static Int32 line = 0;
